@@ -1,0 +1,42 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  D:\CUDA Projects\Real-time-Particle-Simulation-with-CUDA>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\include"  -G   --keep-dir Real-tim.FFB4BC67\x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/FdReal-tim.FFB4BC67\x64\Debug\vc143.pdb" -o "D:\CUDA Projects\Real-time-Particle-Simulation-with-CUDA\Real-tim.FFB4BC67\x64\Debug\kernel.cu.obj" "D:\CUDA Projects\Real-time-Particle-Simulation-with-CUDA\kernel.cu" 
+D:\CUDA Projects\Real-time-Particle-Simulation-with-CUDA\kernel.cu(1): error : expected a declaration
+    ?
+    ^
+  
+CUDACOMPILE : error : inline specifier allowed on function declarations only
+  
+CUDACOMPILE : error : inline specifier allowed on function declarations only
+  
+CUDACOMPILE : error : inline specifier allowed on function declarations only
+  
+CUDACOMPILE : error : inline specifier allowed on function declarations only
+  
+CUDACOMPILE : error : inline specifier allowed on function declarations only
+  
+CUDACOMPILE : error : inline specifier allowed on function declarations only
+  
+D:\CUDA Projects\Real-time-Particle-Simulation-with-CUDA\kernel.cu(120): error : identifier "__acrt_iob_func" is undefined
+            fprintf((__acrt_iob_func(2)), "Failed to open CSV file!\n");
+                     ^
+  
+D:\CUDA Projects\Real-time-Particle-Simulation-with-CUDA\kernel.cu(120): error : identifier "fprintf" is undefined
+            fprintf((__acrt_iob_func(2)), "Failed to open CSV file!\n");
+            ^
+  
+D:\CUDA Projects\Real-time-Particle-Simulation-with-CUDA\kernel.cu(129): error : identifier "__acrt_iob_func" is undefined
+                fprintf((__acrt_iob_func(2)), "simulateParticlesWithCuda failed at frame %d!\n", frame);
+                         ^
+  
+D:\CUDA Projects\Real-time-Particle-Simulation-with-CUDA\kernel.cu(129): error : identifier "fprintf" is undefined
+                fprintf((__acrt_iob_func(2)), "simulateParticlesWithCuda failed at frame %d!\n", frame);
+                ^
+  
+D:\CUDA Projects\Real-time-Particle-Simulation-with-CUDA\kernel.cu(135): error : identifier "printf" is undefined
+            printf("Saved frame %d\n", frame);
+            ^
+  
+  12 errors detected in the compilation of "D:/CUDA Projects/Real-time-Particle-Simulation-with-CUDA/kernel.cu".
+  kernel.cu
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\CUDA 12.4.targets(799,9): error MSB3721: The command ""C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\include"  -G   --keep-dir Real-tim.FFB4BC67\x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/FdReal-tim.FFB4BC67\x64\Debug\vc143.pdb" -o "D:\CUDA Projects\Real-time-Particle-Simulation-with-CUDA\Real-tim.FFB4BC67\x64\Debug\kernel.cu.obj" "D:\CUDA Projects\Real-time-Particle-Simulation-with-CUDA\kernel.cu"" exited with code 2.
