@@ -4,7 +4,7 @@
 ### The Real-time Particle Simulation with CUDA project leverages GPU acceleration via CUDA to simulate particle systems with high performance and real-time visualization. It applies physics principles such as gravity and elasticity to model dynamic phenomena like waterfalls. The simulation is highly optimized for large particle counts and multiple frames, with particle data saved to a CSV file. For visualization, the project uses PyGame and OpenGL to render the particles in 3D, each with a unique, randomly generated color, offering a rich, interactive experience in real time.
 
 
-### Demo Video for Real-time-Particle-Simulation-with-CUDA: https://youtu.be/WqzptGOrr9I
+## Demo Video for Real-time-Particle-Simulation-with-CUDA: https://youtu.be/WqzptGOrr9I
 
 ### GPU Spec:
 ![image](https://github.com/user-attachments/assets/0ac8ff78-ec10-4a06-9643-976046e6d10a)
